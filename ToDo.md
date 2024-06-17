@@ -10,13 +10,13 @@
     - [ ] 5 produits
     - [ ] 2 caisses
 - [x] Initialiser Codeigniter (5 min)
-- [ ] Cree le template (25 min)
+- [X] Cree le template (25 min)
 
 ## Travail a faire 2
 
-- [ ] Ecran d'accueil pour choisir l numero de caisse ( 20 min)
-  - [ ] formuliare avec un select
-  - [ ] recuperer la liste des caisses
+- [X] Ecran d'accueil pour choisir l numero de caisse ( 20 min)
+  - [X] formuliare avec un select
+  - [X] recuperer la liste des caisses
   - [ ] validation => redirection vers saisie d'achat
   - [ ] afficher numero de caisse et montant de caisse
 
@@ -24,19 +24,19 @@
 
 ( 45 min + 60 min)
 
-- [ ] Page d saisie de caisse
-  - [ ] formulaire d'achat
-    - [ ] select de produit
-    - [ ] quantite de produit
+- [X] Page d saisie de caisse
+  - [X] formulaire d'achat
+    - [X] select de produit
+    - [X] quantite de produit
     - [ ] validation => ajouter au liste des achats
     - [ ] recuperer la liste des produits
   - [ ] Liste des achats en cours
-    - [ ] tableau (produit,prixu,qte,montant)
+    - [X] tableau (produit,prixu,qte,montant)
     - [ ] total des achats
 
 ## Travail a faire 4
 
-- [ ] login avant choix de la caisse
+- [X] login avant choix de la caisse
   - [ ] table utilisateur (login,motdepasse,nom)
   - [ ] authentification
   - [ ] formulaire de connexion
