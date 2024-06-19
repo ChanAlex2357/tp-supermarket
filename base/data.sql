@@ -1,0 +1,1 @@
+INSERT INTO utilisateur (login, motdepasse, nom) VALUES ('tahina@itu.com', 'itu16','Tahina');
