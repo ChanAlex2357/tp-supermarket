@@ -2,13 +2,13 @@
 
 ## Travail a faire 1
 
-- [ ] Creation de base de donnee et des tables , donnees de test (30 min)
-  - [ ] Produit (idProduit,designation , prixUnitaire , quantite , enStock )
-  - [ ]  caisse (idCaisse , numero , montant)
-  - [ ]  achats (idClient,idCaisse,idProduit,prixUnitaire,quantite,montant )
-  - [ ] Donnees de test
-    - [ ] 5 produits
-    - [ ] 2 caisses
+- [x] Creation de base de donnee et des tables , donnees de test (30 min)
+  - [x] Produit (idProduit,designation , prixUnitaire , quantite , enStock )
+  - [x]  caisse (idCaisse , numero , montant)
+  - [x]  achats (idClient,idCaisse,idProduit,prixUnitaire,quantite,montant )
+  - [x] Donnees de test
+    - [x] 5 produits
+    - [x] 2 caisses
 - [x] Initialiser Codeigniter (5 min)
 - [X] Cree le template (25 min)
 
@@ -37,9 +37,9 @@
 ## Travail a faire 4
 
 - [X] login avant choix de la caisse
-  - [ ] table utilisateur (login,motdepasse,nom)
-  - [ ] authentification
-  - [ ] formulaire de connexion
+  - [x] table utilisateur (login,motdepasse,nom)
+  - [x] authentification
+  - [x] formulaire de connexion
 - [ ] Cloturer achats
   - [ ] enregistrer les achats en base
     - [ ] les produits acheter
