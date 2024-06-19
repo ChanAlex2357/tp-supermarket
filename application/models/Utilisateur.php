@@ -111,7 +111,7 @@ class Utilisateur extends CI_Model
     {
         $authentification = false;
         if (Utilisateur::isMailExist($login)) {
-            $sql = "SELECT login from utilisateur where login = %s AND motdepasse = %s LIMIT 1";
+            $sql = "SELECT login, motdepasse from utilisateur where login = %s AND motdepasse = %s LIMIT 1";
             $sql = sprintf($sql, $this->db->escape($login), $this->db->escape($pwd));
 
             $query = $this->db->query($sql);
@@ -125,7 +125,7 @@ class Utilisateur extends CI_Model
 
     public function getUtilisateur(string $login, string $pwd): Utilisateur
     {
-        $sql = "SELECT login from utilisateur where login = %s AND motdepasse = %s LIMIT 1";
+        $sql = "SELECT * from utilisateur where login = %s AND motdepasse = %s LIMIT 1";
         $sql = sprintf($sql, $this->db->escape($login), $this->db->escape($pwd));
 
         $query = $this->db->query($sql);
@@ -145,7 +145,7 @@ class Utilisateur extends CI_Model
      */
     public function getById(int $id): Utilisateur
     {
-        $sql = "SELECT login from utilisateur where idClient = %d ";
+        $sql = "SELECT * from utilisateur where idClient = %d ";
         $sql = sprintf($sql, $id);
 
         $query = $this->db->query($sql);
