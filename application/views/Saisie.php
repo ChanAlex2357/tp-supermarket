@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="mt-3 mb-3">Caisse n°</h2>
+    <h2 class="mt-3 mb-3">Caisse n° <?= $numero ?></h2>
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-3">
             <label for="produits" class="form-label">Produits</label>
