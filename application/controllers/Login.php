@@ -25,7 +25,6 @@ class Login extends CI_Controller {
         } catch (Exception $e){
             $reponse['message'] = $e->getMessage();
         }
-
         echo json_encode($reponse);
     }
 }

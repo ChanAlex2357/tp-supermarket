@@ -1,3 +1,9 @@
+<?php
+    $user = $this->session->userdata("utilisateur");
+    if(!isset($user)) redirect("http://localhost/tp-supermarket/");;
+    $user = unserialize($this->session->userdata("utilisateur"));
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

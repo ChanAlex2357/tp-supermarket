@@ -17,10 +17,10 @@
     <div class="form">
         <form id="login-form">
             <label for="mail">Email</label>
-            <input type="text" name="login" placeholder="tahina@gmail.com" id="mail">
+            <input type="text" name="login" value="tahina@itu.com" placeholder="tahina@itu.com" id="mail">
 
             <label for="pwd">Password</label>
-            <input type="password" name="pwd" id="pwd" placeholder="********">
+            <input type="password" name="pwd" id="pwd" value="itu16" placeholder="********">
 
             <div>
                 <a href="#">Forgot Password?</a>
