@@ -109,7 +109,4 @@ class Caisse extends CI_Model
         return $caisse;
     }
     /* ---------- ----------- ------------*/
-
-
-
 }

@@ -1,12 +1,13 @@
-<div class="container">
+<div class="container" style="min-height: 80vh;">
     <h2 class="mt-3 mb-3">Caisse n° <?= $numero ?></h2>
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-3">
             <label for="produits" class="form-label">Produits</label>
             <select class="form-select" id="produits" required>
                 <option value="">Choose...</option>
-                <option value="">Banane</option>
-                <option value="">Citron</option>
+                <?php foreach ($produits as $p) { ?>
+                    <option value="<?= $p->getIdProduit() ?>"><?= $p->getDesignation() ?></option>
+                <?php } ?>
             </select>
 
             <div class="invalid-feedback"></div>
