@@ -101,6 +101,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 
 	// ------------------------------------------------------------------------
 
+    #[\ReturnTypeWillChange]
 	/**
 	 * Open
 	 *
@@ -134,6 +135,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 
 	// ------------------------------------------------------------------------
 
+    #[\ReturnTypeWillChange]
 	/**
 	 * Read
 	 *
@@ -211,6 +213,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 
 	// ------------------------------------------------------------------------
 
+    #[\ReturnTypeWillChange]
 	/**
 	 * Write
 	 *
@@ -270,6 +273,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 
 	// ------------------------------------------------------------------------
 
+    #[\ReturnTypeWillChange]
 	/**
 	 * Close
 	 *
@@ -292,6 +296,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 
 	// ------------------------------------------------------------------------
 
+    #[\ReturnTypeWillChange]
 	/**
 	 * Destroy
 	 *
@@ -333,6 +338,7 @@ class CI_Session_files_driver extends CI_Session_driver implements SessionHandle
 
 	// ------------------------------------------------------------------------
 
+    #[\ReturnTypeWillChange]
 	/**
 	 * Garbage Collector
 	 *

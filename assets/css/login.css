@@ -155,7 +155,6 @@
 /* En cas d'erreur */
 small{
     color: red;
-    display: none;
 }
 .error{
     box-shadow: 0 0 5px red;

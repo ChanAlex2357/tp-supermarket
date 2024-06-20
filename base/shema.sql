@@ -15,7 +15,7 @@ CREATE TABLE Caisse (
 
 CREATE TABLE Utilisateur (
     idClient int primary key auto_increment,
-    login varchar(50),
-    motdepasse varchar(50),
+    login varchar(50) unique  not null,
+    motdepasse varchar(50) not null,
     nom varchar(50)
 );
